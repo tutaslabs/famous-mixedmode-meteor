@@ -1,9 +1,17 @@
 # famous-mixedmode-meteor
 Sandbox app showing running the new famous platform in meteor!
 
-Clone into a new meteor app folder (remove all the 'demo' junk!)
+Clone into a new empty folder 
 
-start meteor 
+mkdir demo
+cd demo
+
+git clone http://github/tutaslabs/famous-mixedmode-meteor.git .
+
+
+meteor 
+
+
 Enjoy
 
 Tutuorial to follow soon on http://tutas-labs.com
