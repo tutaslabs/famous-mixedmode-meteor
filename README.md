@@ -11,6 +11,13 @@ git clone http://github/tutaslabs/famous-mixedmode-meteor.git .
 
 meteor 
 
+Then from browser:
+
+localhost:3000
+localhost:3000/demo2
+localhost:3000/demo3
+
+
 
 Enjoy
 
