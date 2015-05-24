@@ -7,7 +7,7 @@ mkdir demo
 
 cd demo
 
-git clone http://github/tutaslabs/famous-mixedmode-meteor.git .
+git clone https://github/tutaslabs/famous-mixedmode-meteor.git .
 
 
 meteor 
