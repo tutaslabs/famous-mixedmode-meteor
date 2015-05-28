@@ -24,6 +24,8 @@ localhost:3000/demo3
 
 Enjoy
 
-Tutuorial to follow soon on http://tutas-labs.com
+A Tutuorial is here  http://www.tutas-labs.com/famous-mixed-mode-and-meteor-integration/
+
+It includes instructions on the building of the famou.us engine.
 
 
