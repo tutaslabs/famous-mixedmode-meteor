@@ -2,13 +2,9 @@
 
 Template.main.onRendered(function() {
 
-    $(".famous-container").remove();
-    div = document.createElement('div');
-    div.className += "famous-container";
-    document.body.appendChild(div);
     Famous.Engine.init();
 
-    var scene = Famous.Engine.createScene('div');
+    var scene = Famous.Engine.createScene();
 
 var rootNode = scene.addChild();
 var aNode = scene.addChild();
@@ -20,16 +16,13 @@ var aNode = scene.addChild();
         .setMountPoint(0.5, 0)
         .setOrigin(0.5, 0,0)
 
-    var e2 = new Famous.DOMElement(aNode, {
-        content: 'Famo.us Mixed Mode Examples!',
-        properties: {
-            'border':'1px solid black',
-            'background-color':'grey',
-            'color':'white',
-            'text-align':'center',
-            'font-size':'x-large'
-        }
-    })
+    var e2 = new Famous.DOMElement(aNode)
+        .setProperty('border','1px solid black')
+        .setProperty('background-color','grey')
+        .setProperty('color','white')
+        .setProperty('text-align','center')
+        .setContent('hello')
+
 
     rootNode
         // Set size mode to 'absolute' to use absolute pixel values: (width 250px, height 250px)

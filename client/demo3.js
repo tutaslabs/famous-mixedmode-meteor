@@ -1,11 +1,8 @@
 Template.demo3.onRendered(function() {
 
 
-    $(".famous-container").remove();
 
-    div = document.createElement('div');
-    div.className += "famous-container black";
-    document.body.appendChild(div);
+
     Famous.Engine.init();
 
 
@@ -77,7 +74,7 @@ Template.demo3.onRendered(function() {
 // APP CODE
 
 
-        var scene = Famous.Engine.createScene('div');
+        var scene = Famous.Engine.createScene();
         var peUpdater = scene.addComponent({
             onUpdate: function (time) {
                 pe.update(time);
