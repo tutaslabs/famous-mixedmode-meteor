@@ -1,8 +1,5 @@
 Template.demo3.onRendered(function() {
 
-
-
-
     Famous.Engine.init();
 
 

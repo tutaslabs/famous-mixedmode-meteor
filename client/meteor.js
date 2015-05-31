@@ -1,7 +1,5 @@
 
-
 Template.main.onRendered(function() {
-
     Famous.Engine.init();
 
     var scene = Famous.Engine.createScene();

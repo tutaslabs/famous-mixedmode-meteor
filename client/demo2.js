@@ -1,7 +1,6 @@
 Template.demo2.onRendered(function() {
 
 
-
     Famous.Engine.init();
 
 
